@@ -292,3 +292,7 @@ label {
     height: 95px;
     text-align: center;
 }
+.ply-btn a i:focus {
+    outline: none;
+    box-shadow: none;
+}
