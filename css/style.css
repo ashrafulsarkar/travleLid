@@ -249,3 +249,46 @@ label {
     padding: 50px 18px;
     display: block;
 }
+
+/* slider area */
+.slider-area {
+    margin: 0 5%;
+}
+.slider-part {
+    max-width: 1711px;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)), url(../img/slider/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.slider-title {
+    max-width: 954px;
+    margin: auto;
+    text-align: center;
+}
+.slider-title h2 {
+    font-size: 77px;
+    line-height: 98px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 240px;
+}
+.ply-btn {
+    padding-bottom: 130px;
+}
+.ply-btn a i {
+    font-size: 25px;
+    color: #fff;
+    line-height: 95px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+}
