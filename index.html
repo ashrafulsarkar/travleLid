@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>TravleLid</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <link rel="icon" href="img/favicon" type="image/gif" sizes="16x16">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <link rel="icon" href="img/favicon" type="image/gif" sizes="16x16">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
     <header id="header-area" class="header-full-part">
         <div class="container">
@@ -44,23 +48,76 @@
             </div>
         </div>
         <div class="slider-area">
-            <div class="slider-part">
+            <div class="slider-part"
+                style="background: linear-gradient(rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)), url(img/slider/slider.jpg);">
                 <div class="slider-title">
                     <h2>Discover Your Right Places With Us</h2>
                     <div class="ply-btn">
-                        <a class="popup-video" href="https://www.youtube.com/watch?v=EW_BZiZ1Es8"><i class="fas fa-play"></i></a>
+                        <a class="popup-video" href="https://www.youtube.com/watch?v=EW_BZiZ1Es8">
+                            <i class="fas fa-play"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
-    
-    
+    <!-- book now area -->
+    <section class="bookNow">
+        <div class="container">
+            <div class="bookPart">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="select-booknow destination">
+                                <select name="" id="">
+                                    <option selected disabled>Destination</option>
+                                    <option value="Englend">Englend</option>
+                                    <option value="Amarica">Amarica</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Englend">Englend</option>
+                                    <option value="Englend">Englend</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="dateSelect select-booknow">
+                                <input type="text" id="datepicker" placeholder="Check In">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="select-booknow guests">
+                                <select name="" id="">
+                                    <option selected disabled>Guests</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="book-btn select-booknow">
+                                <button type="submit" class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section style="height: 500px;"></section>
+
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
