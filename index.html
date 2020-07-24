@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/default.css">
@@ -106,7 +107,7 @@
             </div>
         </div>
     </section>
- <!-- top destination area -->
+    <!-- top destination area -->
     <section id="destination">
         <div class="container">
             <div class="row">
@@ -126,135 +127,237 @@
                 </div>
             </div>
             <div class="destination-filter">
-            <div class="row grid">
-                <div class="col-lg-4 grid-item cat1 cat2 cat4">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination1.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                <div class="row grid">
+                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination1.jpg" alt="">
                             </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 grid-item cat1 cat2 cat5">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination2.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 grid-item cat1 cat2 cat4">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination3.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                    <div class="col-lg-4 grid-item cat1 cat2 cat5">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination2.jpg" alt="">
                             </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 grid-item cat1 cat2 cat5">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination4.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 grid-item cat1 cat2 cat4">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination5.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination3.jpg" alt="">
                             </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 grid-item cat1 cat2 cat3">
-                    <div class="destination-items mb-30">
-                        <div class="destination-img pb-30">
-                            <img src="img/destination/destination6.jpg" alt="">
-                        </div>
-                        <div class="destination-text">
-                            <h4>The Great Wall</h4>
-                            <p>Start From: $916</p>
-                            <div class="destStar">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                    <div class="col-lg-4 grid-item cat1 cat2 cat5">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination4.jpg" alt="">
                             </div>
-                            <div class="destBtn">
-                                <a href="#" class="btn">Read More</a>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination5.jpg" alt="">
+                            </div>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item cat1 cat2 cat3">
+                        <div class="destination-items mb-30">
+                            <div class="destination-img pb-30">
+                                <img src="img/destination/destination6.jpg" alt="">
+                            </div>
+                            <div class="destination-text">
+                                <h4>The Great Wall</h4>
+                                <p>Start From: $916</p>
+                                <div class="destStar">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="destBtn">
+                                    <a href="#" class="btn">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Spacial Offer -->
+    <section id="spacial-offer" class="mt-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-100">
+                    <div class="site-tile">
+                        <h3>Spacial Offer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="spacial-active">
+                    <div class="spacial-item">
+                        <div class="spacial-img">
+                            <img src="img/spacial/spacial1.jpg" alt="">
+                        </div>
+                        <div class="spacial-text">
+                            <h3>Magic Venice, Italy</h3>
+                            <p><span>$443</span>/Per Parson</p>
+                            <div class="destStar">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="spacial-btn">
+                            <a href="#" class="btn">Book Now</a>
+                            <span><i class="far fa-calendar-check"></i> 3 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Italy</span>
+                        </div>
+                    </div>
+                    <div class="spacial-item">
+                        <div class="spacial-img">
+                            <img src="img/spacial/spacial2.jpg" alt="">
+                        </div>
+                        <div class="spacial-text">
+                            <h3>Tauber, Germany</h3>
+                            <p><span>$243</span>/Per Parson</p>
+                            <div class="destStar">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="spacial-btn">
+                            <a href="#" class="btn">Book Now</a>
+                            <span><i class="far fa-calendar-check"></i> 4 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                        </div>
+                    </div>
+                    <div class="spacial-item">
+                        <div class="spacial-img">
+                            <img src="img/spacial/spacial3.jpg" alt="">
+                        </div>
+                        <div class="spacial-text">
+                            <h3>Greek Cottage, Greece</h3>
+                            <p><span>$143</span>/Per Parson</p>
+                            <div class="destStar">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="spacial-btn">
+                            <a href="#" class="btn">Book Now</a>
+                            <span><i class="far fa-calendar-check"></i> 6 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Greece</span>
+                        </div>
+                    </div>
+                    <div class="spacial-item">
+                        <div class="spacial-img">
+                            <img src="img/spacial/spacial2.jpg" alt="">
+                        </div>
+                        <div class="spacial-text">
+                            <h3>Tauber, Germany</h3>
+                            <p><span>$243</span>/Per Parson</p>
+                            <div class="destStar">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="spacial-btn">
+                            <a href="#" class="btn">Book Now</a>
+                            <span><i class="far fa-calendar-check"></i> 4 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -265,6 +368,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/main.js"></script>

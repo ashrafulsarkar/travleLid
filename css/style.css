@@ -44,7 +44,7 @@ body {
     font-family: 'Muli', sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #444;
+    color: #505050;
 }
 
 img {
@@ -89,7 +89,7 @@ a:hover,
 
 a,
 button {
-    color: #000;
+    color: #505050;
     outline: medium none;
 }
 
@@ -542,8 +542,109 @@ a.ui-datepicker-next::after{
     padding: 14px 33px;
     font-size: 16px;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .destination-menu button.active{
     background: #00A790;
     color: #fff;
+}
+
+/* spacial offer */
+.spacial-text {
+    background: #F4FBFA;
+    padding: 26px 30px;
+    width: 370px;
+    margin: auto;
+}
+.spacial-btn{
+    background: #F4FBFA;
+    padding: 20px 30px;
+    border-top: 1px solid rgba(112, 112, 112, 0.14);
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    width: 370px;
+    margin: auto;
+}
+.spacial-img {
+    width: 370px;
+    margin: auto;
+}
+.spacial-img img {
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.spacial-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.spacial-text p{
+    margin-bottom: 0px;
+}
+.spacial-text p span {
+    color: #00A790;
+    font-size: 24px;
+    font-weight: 700;
+}
+.spacial-text .destStar {
+    padding-bottom: 0;
+}
+.spacial-btn .btn {
+    padding: 12px 10px;
+}
+.spacial-btn span {
+    margin-left: 14px;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #00A790;
+    border: 1px solid #00A790;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 999;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+button.slick-arrow:hover{
+    background: #00A790;
+    color: #fff;
+}
+button.slick-arrow i{
+    font-size: 18px;
+}
+button.slick-next {
+    right: -68px;
+    left: inherit;
+}
+button.slick-prev {
+    left: -68px;
+    right: inherit;
 }
