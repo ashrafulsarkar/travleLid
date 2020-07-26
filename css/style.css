@@ -715,3 +715,111 @@ button.slick-prev {
     top: -160px;
     bottom: inherit;
 }
+/* Clients Say About Us */
+.testimonial-part {
+    width: 570px;
+    margin: auto;
+    background: #F4FBFA;
+    padding: 30px 35px;
+    border-radius: 10px;
+}
+.user-img {
+    display: inline-block;
+    float: left;
+}
+.user-img img {
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+}
+.test-user-details {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+}
+.test-user-details h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.test-user-details p {
+    margin-left: 3px;
+    line-height: 20px;
+}
+.test-icon {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+.test-icon i {
+    font-size: 37px;
+    color: #00A790;
+}
+.user-says {
+    clear: both;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+.user-says p {
+    margin-bottom: 0;
+}
+/* Travel Blog */
+.blog-img {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 212px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.blog-play-btn {
+    margin: auto;
+    width: 133px;
+    height: 133px;
+    line-height: 133px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+.play-btn i{
+    width: 88px;
+    height: 88px;
+    margin: auto;
+    background: #fff;
+    color: #00A790;
+    text-align: center;
+    line-height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.blog-text {
+    text-align: center;
+    padding-top: 40px;
+}
+.blog-text h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.blog-text p {
+    max-width: 880px;
+    margin: auto;
+}
+.blog-arrow button.slick-arrow {
+    transform: translateY(-220%);
+    -webkit-transform: translateY(-220%);
+    -moz-transform: translateY(-220%);
+    -ms-transform: translateY(-220%);
+    -o-transform: translateY(-220%);
+}
