@@ -1,0 +1,262 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 30px;
+        width: 1050px;
+        margin: auto;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        padding: 50px 15px;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .destination-menu button {
+        padding: 10px 20px;
+    }
+    .destination-text {
+        width: 250px;
+    }
+    .spacial-part {
+        width: 290px;
+    }
+    .spacial-text h3 {
+        font-size: 20px;
+    }
+    .spacial-text {
+        padding: 26px 20px;
+    }
+    .spacial-btn{
+        padding: 20px;
+    }
+    .spacial-btn .btn {
+        padding: 10px 7px;
+    }
+    .spacial-btn span {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .instaItems {
+        width: 285px;
+    }
+    .testimonial-part {
+        width: 440px;
+        padding: 30px 25px;
+    }
+    .test-user-details h3 {
+        font-size: 25px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-top {
+        padding: 15px 0;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 20px;
+        top: -55px;
+    }
+    .nice-select {
+        font-size: 17px;
+        line-height: 65px;
+        height: 65px;
+        padding-left: 10px;
+    }
+    .select-booknow select, .select-booknow input {
+        height: 65px;
+    }
+    .nice-select .list {
+        font-size: 17px;
+    }
+    .book-btn .btn {
+        font-size: 20px;
+        padding: 22px 0;
+    }
+    .slider-title h2 {
+        font-size: 68px;
+        line-height: 72px;
+        padding-top: 150px;
+    }
+    .site-tile h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .destination-menu button {
+        padding: 6px 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .destination-text {
+        width: 185px;
+    }
+    .destination-text h4 {
+        font-size: 20px;
+        line-height: 18px;
+        padding-top: 15px;
+    }
+    .destination-text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .destBtn .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    .spacial-part {
+        width: 320px;
+    }
+    .spacial-btn {
+        padding: 20px;
+    }
+    .spacial-btn span {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .spacial-text {
+        padding: 26px 20px;
+    }
+    .instaItems {
+        width: 215px;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .header-top {
+        padding: 15px 0;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 20px;
+        top: -96px;
+    }
+    .select-booknow {
+        max-width: none;
+        margin: inherit;
+    }
+    .nice-select {
+        font-size: 17px;
+        line-height: 65px;
+        height: 65px;
+        padding-left: 10px;
+    }
+    .select-booknow select, .select-booknow input {
+        height: 65px;
+    }
+    .nice-select .list {
+        font-size: 17px;
+    }
+    .book-btn {
+        margin-top: 20px;
+    }
+    .book-btn .btn {
+        font-size: 20px;
+        padding: 22px 0;
+    }
+    .destination-menu {
+        margin-top: 50px;
+    }
+    .destination-menu button {
+        padding: 14px 27px;
+        font-size: 16px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .instaItems {
+        width: 230px;
+    }
+    .site-tile h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .blog-text h2 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-btn {
+        margin-right: 20px;
+    }
+    .slider-title h2 {
+        font-size: 50px;
+        line-height: 60px;
+        padding-top: 135px;
+    }
+    .destination-text {
+        width: 215px;
+    }
+    .testimonial-part {
+        width: 490px;
+        padding: 30px;
+    }
+    .blog-img {
+        padding: 65px 0;
+    }
+    .blog-play-btn {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .play-btn i{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1360px) , (min-width: 992px) and (max-width: 1100px), (min-width: 768px) and (max-width: 869px), (min-width: 576px) and (max-width: 700px){
+    .top-arrow-some-screen button.slick-prev {
+        left: inherit;
+        bottom: inherit;
+        top: -160px;
+        right: 60px;
+    }
+    .top-arrow-some-screen button.slick-next {
+        right: 10px;
+        left: inherit;
+        top: -160px;
+        bottom: inherit;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+}
+}

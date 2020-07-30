@@ -8,46 +8,64 @@
     <!--    <link rel="icon" href="img/favicon" type="image/gif" sizes="16x16">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
     <header id="header-area" class="header-full-part">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-3">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="img/logo/logo.png" alt="">
-                        </a>
+            <div class="header-top">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 d-none d-lg-block">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="#">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Home 1</a></li>
+                                            <li><a href="#">Home 2</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Home 1</a></li>
+                                                    <li><a href="#">Home 2</a></li>
+                                                    <li><a href="#">Home 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Home 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Popular Destinations</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                        <div class="header-btn">
+                            <a href="#" class="btn">Join Our Trip</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-7">
-                    <div class="main-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Popular Destinations</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="header-btn">
-                        <a href="#" class="btn">Join Our Trip</a>
-                    </div>
-                </div>
+                <div class="mobile-menu"></div>
             </div>
         </div>
+        <!-- slider area -->
         <div class="slider-area">
             <div class="slider-part"
                 style="background: linear-gradient(rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)), url(img/slider/slider1.jpg);">
@@ -68,7 +86,7 @@
             <div class="bookPart">
                 <form action="#">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3 col-sm-4">
                             <div class="select-booknow destination">
                                 <select name="" id="">
                                     <option selected disabled>Destination</option>
@@ -80,12 +98,12 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3 col-sm-4">
                             <div class="dateSelect select-booknow">
                                 <input type="text" id="datepicker" placeholder="Check In">
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3 col-sm-4">
                             <div class="select-booknow guests">
                                 <select name="" id="">
                                     <option selected disabled>Guests</option>
@@ -97,7 +115,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3 col-12">
                             <div class="book-btn select-booknow">
                                 <button type="submit" class="btn">Book Now</button>
                             </div>
@@ -111,12 +129,12 @@
     <section id="destination">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="site-tile">
                         <h3>Top Destination</h3>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
                     <div class="destination-menu">
                         <button data-filter=".cat1" class="active">Chine</button>
                         <button data-filter=".cat2">Italy</button>
@@ -128,7 +146,7 @@
             </div>
             <div class="destination-filter">
                 <div class="row grid">
-                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat4">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination1.jpg" alt="">
@@ -149,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 grid-item cat1 cat2 cat5">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat5">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination2.jpg" alt="">
@@ -170,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat4">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination3.jpg" alt="">
@@ -191,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 grid-item cat1 cat2 cat5">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat5">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination4.jpg" alt="">
@@ -212,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 grid-item cat1 cat2 cat4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat4">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination5.jpg" alt="">
@@ -233,7 +251,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 grid-item cat1 cat2 cat3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 grid-item cat1 cat2 cat3">
                         <div class="destination-items mb-30">
                             <div class="destination-img pb-30">
                                 <img src="img/destination/destination6.jpg" alt="">
@@ -270,89 +288,97 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="spacial-active">
+                    <div class="spacial-active top-arrow-some-screen">
                         <div class="spacial-item">
-                            <div class="spacial-img">
-                                <img src="img/spacial/spacial1.jpg" alt="">
-                            </div>
-                            <div class="spacial-text">
-                                <h3>Magic Venice, Italy</h3>
-                                <p><span>$443</span>/Per Parson</p>
-                                <div class="destStar">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                            <div class="spacial-part">
+                                <div class="spacial-img">
+                                    <img src="img/spacial/spacial1.jpg" alt="">
                                 </div>
-                            </div>
-                            <div class="spacial-btn">
-                                <a href="#" class="btn">Book Now</a>
-                                <span><i class="far fa-calendar-check"></i> 3 Nights</span>
-                                <span><i class="fas fa-map-marker-alt"></i> Italy</span>
+                                <div class="spacial-text">
+                                    <h3>Magic Venice, Italy</h3>
+                                    <p><span>$443</span>/Per Parson</p>
+                                    <div class="destStar">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="spacial-btn">
+                                    <a href="#" class="btn">Book Now</a>
+                                    <span><i class="far fa-calendar-check"></i> 3 Nights</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Italy</span>
+                                </div>
                             </div>
                         </div>
                         <div class="spacial-item">
-                            <div class="spacial-img">
-                                <img src="img/spacial/spacial2.jpg" alt="">
-                            </div>
-                            <div class="spacial-text">
-                                <h3>Tauber, Germany</h3>
-                                <p><span>$243</span>/Per Parson</p>
-                                <div class="destStar">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                            <div class="spacial-part">
+                                <div class="spacial-img">
+                                    <img src="img/spacial/spacial2.jpg" alt="">
                                 </div>
-                            </div>
-                            <div class="spacial-btn">
-                                <a href="#" class="btn">Book Now</a>
-                                <span><i class="far fa-calendar-check"></i> 4 Nights</span>
-                                <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                                <div class="spacial-text">
+                                    <h3>Tauber, Germany</h3>
+                                    <p><span>$243</span>/Per Parson</p>
+                                    <div class="destStar">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="spacial-btn">
+                                    <a href="#" class="btn">Book Now</a>
+                                    <span><i class="far fa-calendar-check"></i> 4 Nights</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                                </div>
                             </div>
                         </div>
                         <div class="spacial-item">
-                            <div class="spacial-img">
-                                <img src="img/spacial/spacial3.jpg" alt="">
-                            </div>
-                            <div class="spacial-text">
-                                <h3>Greek Cottage, Greece</h3>
-                                <p><span>$143</span>/Per Parson</p>
-                                <div class="destStar">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                            <div class="spacial-part">
+                                <div class="spacial-img">
+                                    <img src="img/spacial/spacial3.jpg" alt="">
                                 </div>
-                            </div>
-                            <div class="spacial-btn">
-                                <a href="#" class="btn">Book Now</a>
-                                <span><i class="far fa-calendar-check"></i> 6 Nights</span>
-                                <span><i class="fas fa-map-marker-alt"></i> Greece</span>
+                                <div class="spacial-text">
+                                    <h3>Greek Cottage, Greece</h3>
+                                    <p><span>$143</span>/Per Parson</p>
+                                    <div class="destStar">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="spacial-btn">
+                                    <a href="#" class="btn">Book Now</a>
+                                    <span><i class="far fa-calendar-check"></i> 6 Nights</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Greece</span>
+                                </div>
                             </div>
                         </div>
                         <div class="spacial-item">
-                            <div class="spacial-img">
-                                <img src="img/spacial/spacial2.jpg" alt="">
-                            </div>
-                            <div class="spacial-text">
-                                <h3>Tauber, Germany</h3>
-                                <p><span>$243</span>/Per Parson</p>
-                                <div class="destStar">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                            <div class="spacial-part">
+                                <div class="spacial-img">
+                                    <img src="img/spacial/spacial2.jpg" alt="">
                                 </div>
-                            </div>
-                            <div class="spacial-btn">
-                                <a href="#" class="btn">Book Now</a>
-                                <span><i class="far fa-calendar-check"></i> 4 Nights</span>
-                                <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                                <div class="spacial-text">
+                                    <h3>Tauber, Germany</h3>
+                                    <p><span>$243</span>/Per Parson</p>
+                                    <div class="destStar">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="spacial-btn">
+                                    <a href="#" class="btn">Book Now</a>
+                                    <span><i class="far fa-calendar-check"></i> 4 Nights</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Germany</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -523,7 +549,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="blog-active blog-arrow">
+                    <div class="blog-active blog-arrow top-arrow-some-screen">
                         <div class="blog-items">
                             <div class="blog-img"
                                 style="background: linear-gradient(rgba(0, 0, 0, 0.22) , rgba(0, 0, 0, 0.22)), url(img/slider/slider2.jpg);">
@@ -573,7 +599,7 @@
         <div class="footer-top pb-45">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer-items">
                             <div class="footer-logo">
                                 <img src="img/logo/logo.png" alt="">
@@ -589,7 +615,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer-items">
                             <div class="footer-title">
                                 <h3>Important Links</h3>
@@ -604,7 +630,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer-items">
                             <div class="footer-title">
                                 <h3>Our Support</h3>
@@ -619,7 +645,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer-items">
                             <div class="footer-title">
                                 <h3>Our News Letter</h3>
@@ -655,6 +681,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/slick.min.js"></script>

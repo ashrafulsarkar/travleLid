@@ -78,12 +78,9 @@ a:focus,
     text-decoration: none;
     outline: none;
 }
-
-a:focus,
 a:hover,
-.portfolio-cat a:hover,
-.footer -menu li a:hover {
-    color: #ffffff;
+a:focus{
+    color: #00a790;
     text-decoration: none;
     box-shadow: none !important;
 }
@@ -249,11 +246,53 @@ label {
 
 .main-menu ul li {
     display: inline-block;
+    position: relative;
+
 }
 
 .main-menu ul li a {
     padding: 50px 18px;
     display: block;
+}
+
+.main-menu ul li:hover > a{
+    color: #00a790;
+}
+
+
+.main-menu ul li ul.sub-menu {
+    position: absolute;
+    width: 185px;
+    text-align: left;
+    background: #fff;
+    padding: 5px 0;
+    top: 100%;
+    left: 0;
+    border-radius: 3px;
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-menu ul li ul.sub-menu li {
+    display: block;
+}
+
+.main-menu ul li ul.sub-menu li a {
+    padding: 5px 15px;
+    display: block;
+}
+.main-menu ul li ul.sub-menu li ul.sub-menu{
+    left: 100%;
+    top: 0;
+}
+.main-menu ul li:hover > ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* slider area */
@@ -311,9 +350,10 @@ label {
 /* book now */
 
 .select-booknow {
-    width: 246px;
+    max-width: 246px;
     margin: auto;
     text-align: center;
+    position: relative;
 }
 
 .select-booknow select,
@@ -337,7 +377,8 @@ label {
 }
 
 .nice-select {
-    width: 246px;
+    max-width: 246px;
+    width: 100%;
     color: #505050;
     font-size: 19px;
     line-height: 90px;
@@ -346,7 +387,8 @@ label {
 }
 
 .nice-select .list {
-    width: 246px;
+    max-width: 246px;
+    width: 100%;
     margin-top: 20px;
     color: #505050;
     font-size: 19px;
@@ -357,7 +399,7 @@ label {
     color: #505050;
     border: 1px solid rgba(0, 167, 144, .17);
     border-radius: 5px;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -367,7 +409,7 @@ label {
 }
 
 .dateSelect input::placeholder {
-    font-size: 19px;
+    font-size: 17px;
     color: #505050;
 }
 
@@ -380,7 +422,7 @@ label {
     margin-top: -4px;
     pointer-events: none;
     position: absolute;
-    right: 32px;
+    right: 18px;
     top: 50%;
     -webkit-transform-origin: 66% 66%;
     -ms-transform-origin: 66% 66%;
@@ -552,11 +594,13 @@ a.ui-datepicker-next::after{
 }
 
 /* spacial offer */
+.spacial-part {
+    width: 370px;
+    margin: auto;
+}
 .spacial-text {
     background: #F4FBFA;
     padding: 26px 30px;
-    width: 370px;
-    margin: auto;
 }
 .spacial-btn{
     background: #F4FBFA;
@@ -567,12 +611,6 @@ a.ui-datepicker-next::after{
     -moz-border-radius: 0 0 10px 10px;
     -ms-border-radius: 0 0 10px 10px;
     -o-border-radius: 0 0 10px 10px;
-    width: 370px;
-    margin: auto;
-}
-.spacial-img {
-    width: 370px;
-    margin: auto;
 }
 .spacial-img img {
     border-radius: 10px 10px 0 0;
@@ -829,6 +867,12 @@ button.slick-prev {
 .footer-text {
     margin-top: 38px;
     margin-bottom: 22px;
+}
+.footer-social a i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
 }
 .footer-title {
     margin-top: 8px;
