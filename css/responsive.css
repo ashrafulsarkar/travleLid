@@ -8,7 +8,6 @@
         width: 1050px;
         margin: auto;
     }
-
 }
 
 /* LG Device :992px. */
@@ -34,7 +33,7 @@
     .spacial-text {
         padding: 26px 20px;
     }
-    .spacial-btn{
+    .spacial-btn {
         padding: 20px;
     }
     .spacial-btn .btn {
@@ -54,9 +53,15 @@
     .test-user-details h3 {
         font-size: 25px;
     }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-300%);
+        -webkit-transform: translateY(-300%);
+        -moz-transform: translateY(-300%);
+        -ms-transform: translateY(-300%);
+        -o-transform: translateY(-300%);
+}
 }
 
- 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
     .header-top {
@@ -75,7 +80,8 @@
         height: 65px;
         padding-left: 10px;
     }
-    .select-booknow select, .select-booknow input {
+    .select-booknow select,
+    .select-booknow input {
         height: 65px;
     }
     .nice-select .list {
@@ -136,10 +142,18 @@
     .instaItems {
         width: 215px;
     }
-
+    .blog-img {
+        padding: 15% 0;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-330%);
+        -webkit-transform: translateY(-330%);
+        -moz-transform: translateY(-330%);
+        -ms-transform: translateY(-330%);
+        -o-transform: translateY(-330%);
+}
 }
 
- 
 /* Extra small Device. */
 @media (max-width: 767px) {
     .header-top {
@@ -162,7 +176,8 @@
         height: 65px;
         padding-left: 10px;
     }
-    .select-booknow select, .select-booknow input {
+    .select-booknow select,
+    .select-booknow input {
         height: 65px;
     }
     .nice-select .list {
@@ -177,10 +192,11 @@
     }
     .destination-menu {
         margin-top: 50px;
+        text-align: center;
     }
     .destination-menu button {
-        padding: 14px 27px;
-        font-size: 16px;
+        padding: 12px 23px;
+        font-size: 12px;
         border-radius: 8px;
         -webkit-border-radius: 8px;
         -moz-border-radius: 8px;
@@ -188,19 +204,151 @@
         -o-border-radius: 8px;
     }
     .instaItems {
-        width: 230px;
+        width: 265px;
     }
     .site-tile h3 {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 35px;
     }
     .blog-text h2 {
-        font-size: 35px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 600;
     }
- 
+    .blog-text p {
+        font-size: 14px;
+    }
+    .logo {
+        width: 110px;
+    }
+    .header-btn a {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .mean-container a.meanmenu-reveal {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: 0px;
+    }
+    .slider-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 160px;
+    }
+    .select-booknow,
+    .select-booknow .nice-select {
+        margin-bottom: 20px;
+        max-width: inherit;
+    }
+    .book-btn.select-booknow {
+        margin: 0;
+    }
+    .destination-items {
+        text-align: center;
+    }
+    .destination-text {
+        width: 255px;
+    }
+    .spacial-part {
+        width: 270px;
+    }
+    .spacial-text {
+        padding: 26px 15px;
+    }
+    .spacial-text h3 {
+        font-size: 22px;
+    }
+    .spacial-btn {
+        padding: 20px 15px;
+    }
+    .spacial-btn .btn {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .spacial-btn span {
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    #destination {
+        padding-top: 0;
+    }
+    .destination-filter {
+        margin-top: 45px;
+    }
+    #spacial-offer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .site-tile.mb-100 {
+        margin-bottom: 60px;
+    }
+    #instaPost {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #client-say {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .testimonial-part {
+        width: 100%;
+        padding: 25px 15px;
+    }
+    .user-img {
+        display: block;
+        float: inherit;
+    }
+    .user-img img {
+        margin: auto;
+    }
+    .top-arrow button.slick-prev,
+    .top-arrow button.slick-next {
+        top: -110px;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-295%);
+        -webkit-transform: translateY(-295%);
+        -moz-transform: translateY(-295%);
+        -ms-transform: translateY(-295%);
+        -o-transform: translateY(-295%);
 }
- 
+    .test-user-details {
+        display: block;
+        float: inherit;
+        margin-left: inherit;
+        text-align: center;
+    }
+    .user-says p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    #travel-blog {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .blog-img {
+        padding: 15% 0;
+    }
+    .play-btn i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .blog-play-btn {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .footer-area {
+        padding-top: 30px;
+    }
+    .footer-items {
+        padding-bottom: 30px;
+    }
+}
+
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-btn {
@@ -226,20 +374,35 @@
         height: 100px;
         line-height: 100px;
     }
-    .play-btn i{
+    .play-btn i {
         width: 70px;
         height: 70px;
         line-height: 70px;
     }
+    .user-img {
+        display: inline-block;
+        float: left;
+        text-align: inherit;
+    }
+    .test-user-details {
+        display: inline-block;
+        float: left;
+        margin-left: 25px;
+        text-align: inherit;
+    }
+    .instaItems {
+        width: 240px;
+    }
+    .select-booknow, .select-booknow .nice-select {
+        max-width: none;
+    }
     
 }
 
-
-
-
-
-
-@media only screen and (min-width: 1200px) and (max-width: 1360px) , (min-width: 992px) and (max-width: 1100px), (min-width: 768px) and (max-width: 869px), (min-width: 576px) and (max-width: 700px){
+/* arrow problem solve */
+@media only screen and (min-width: 1200px) and (max-width: 1360px),
+(min-width: 992px) and (max-width: 1100px),
+(min-width: 768px) and (max-width: 869px) {
     .top-arrow-some-screen button.slick-prev {
         left: inherit;
         bottom: inherit;
@@ -258,5 +421,26 @@
         -moz-transform: translateY(50%);
         -ms-transform: translateY(50%);
         -o-transform: translateY(50%);
+    }
 }
+@media only screen and (min-width: 576px) and (max-width: 700px){
+    .top-arrow-some-screen button.slick-prev {
+        left: inherit;
+        bottom: inherit;
+        top: -110px;
+        right: 60px;
+    }
+    .top-arrow-some-screen button.slick-next {
+        right: 10px;
+        left: inherit;
+        top: -110px;
+        bottom: inherit;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+    }
 }
