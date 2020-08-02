@@ -563,19 +563,20 @@ a.ui-datepicker-next::after{
     font-size: 10px;
 }
 .destBtn{
-    padding-bottom: 20px;
-    display: none;
-    transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 }
 .destBtn .btn {
     padding: 10px 12px;
 }
 .destination-items:hover .destBtn {
-    display: block;
+    padding-bottom: 20px;
+    height: auto;
 }
 .destination-menu button {
     background: none;
@@ -914,4 +915,27 @@ button.slick-prev {
     margin-bottom: 0;
     padding: 23px 0;
     line-height: 20px;
+}
+#return-to-top i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(244 251 250);
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    text-align: center;
+    line-height: 40px;
+    color: #00a790;
+    border: 1px solid #00a790;
 }
