@@ -114,7 +114,7 @@ h4,
 h5,
 h6 {
     font-family: 'Quicksand', sans-serif;
-    color: #393542;
+    color: #222222;
     margin-top: 0;
     font-style: normal;
     font-weight: 700;
@@ -276,6 +276,7 @@ label {
     -o-transition: all 0.3s ease-out 0s;
     opacity: 0;
     visibility: hidden;
+    z-index: 999;
 }
 
 .main-menu ul li ul.sub-menu li {
@@ -303,9 +304,9 @@ label {
 .slider-part {
     max-width: 1711px;
     margin: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -938,4 +939,120 @@ button.slick-prev {
     line-height: 40px;
     color: #00a790;
     border: 1px solid #00a790;
+}
+/* about page */
+.slider-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: "-";
+    color: #fff;
+}
+.slider-breadcrumb .breadcrumb {
+    background: none;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 192px 0;
+}
+.slider-breadcrumb li.breadcrumb-item {
+    font-size: 78px;
+    line-height: 98px;
+}
+.slider-breadcrumb .breadcrumb-item a,
+.slider-breadcrumb .breadcrumb-item.active{
+    color: #fff;
+}
+.about_img {
+    max-width: 543px;
+}
+.about_img img {
+    border-radius: 10px;
+}
+.about_part h2 {
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+.counter-full {
+    padding-top: 25px;
+}
+.counter-full .single-counter span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+.counter-full .single-counter h3,
+.counter-full .single-counter span.counter {
+    font-size: 32px;
+    color: #00A790;
+}
+.single-counter {
+    text-align: center;
+}
+
+/* blog post */
+.post-title h2 {
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 23px;
+}
+.post-img img {
+    border-radius: 10px;
+}
+.post-text {
+    padding-top: 32px;
+    padding-bottom: 15px;
+}
+.post-btn .btn {
+    line-height: 26px;
+    padding: 17px 26px;
+}
+.post-pagination .page-item .page-link {
+    color: #00a790;
+    margin-right: 10px;
+    border: 1px solid #00A790;
+    border-radius: 6px;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 8px 20px;
+}
+.post-pagination .page-item.active .page-link{
+    color: #fff;
+    background: #00a790;
+}
+.post-pagination li:first-child .page-link,
+.post-pagination li:last-child .page-link
+ {
+    font-size: 24px;
+    border: none;
+    color: #505050;
+}
+.post-pagination .page-item.disabled {
+    display: none;
+}
+.search-post input {
+    height: 85px;
+    width: 100%;
+    border-radius: 45px;
+    border: none;
+    padding: 0 30px;
+    box-shadow: 0 0 50px 10px #00000014;
+    font-size: 22px;
+}
+.search-post input::placeholder {
+    font-size: 22px;
+    color: #505050;
+}
+.search-post {
+    padding-top: 22px;
+}
+.recent-post {
+    padding-top: 70px;
+}
+.recent-title h3 {
+    font-size: 22px;
+    line-height: 45px;
+}
+.recent-list ul li {
+    line-height: 34px;
 }
