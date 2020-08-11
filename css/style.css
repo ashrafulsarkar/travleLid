@@ -148,9 +148,9 @@ p {
 }
 
 hr {
-    border-bottom: 1px solid #eceff8;
+    border-bottom: 1px solid rgba(132, 130, 130, 0.3);
     border-top: 0 none;
-    margin: 30px 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -255,7 +255,9 @@ label {
     padding: 50px 18px;
     display: block;
 }
-
+.main-menu ul li a:focus {
+    color: #00a790;
+}
 .main-menu ul li:hover > a{
     color: #00a790;
 }
@@ -1172,4 +1174,140 @@ button.slick-prev {
 }
 .author-details p {
     font-size: 19px;
+}
+/* popular destinations */
+.popular-destinations {
+    width: 520px;
+    padding: 8px 0;
+}
+.popular-destinations h4 {
+    font-size: 34px;
+    line-height: 43px;
+}
+.popular-destinations p {
+    font-size: 24px;
+    line-height: 30px;
+}
+.popular-destinations .destStar i {
+    font-size: 16px;
+}
+.popular-destinations .destBtn .btn {
+    padding: 15px 16px;
+}
+/* check out */
+.check-title h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.check-form input,
+.contact-form input {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+.contact-form textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+.payment-img {
+    max-width: 295px;
+}
+.check-out-label input {
+    width: inherit;
+    margin-right: 10px;
+}
+.check-out-label {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.check-out-label input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #eeeeee;
+    box-shadow: inset 0 0 0 0.2em white, 0 0 0 0.1em;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    color: #707070;;
+    border-bottom: none;
+    float: left;
+    margin-top: 4px;
+  }
+  
+  .check-out-label input[type="radio"]:checked {
+    background: #00a790;
+    box-shadow: inset 0 0 0 .2em white, 0 0 0 .1em #00a790;
+  }
+  .check-out-label input[type="radio"]:focus {
+    outline: 0;
+  }
+  .check-out-btn .btn {
+    padding: 21px 38px;
+}
+.cart {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px 0;
+    box-shadow: 0 0 20px 20px #efefef5e;
+}
+.cart-items{
+    padding: 0 25px;
+}
+.cart-img img {
+    border-radius: 8px;
+}
+.cart-details h4 {
+    font-size: 26px;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.cart-items span {
+    font-size: 17px;
+    line-height: 21px;
+    padding: 10px 0;
+    display: block;
+    font-weight: 700;
+}
+.cart-info ul{
+    padding-top: 10px;
+}
+.cart-info ul li {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 6px 0px;
+}
+.cart-info ul li:last-child{
+    color: #00a790;
+}
+/* contact */
+.contact-title h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.contact-btn .btn {
+    padding: 22px 42px;
+}
+.contact-info ul li {
+    font-size: 23px;
+    color: #414141;
+    line-height: 50px;
+}
+.contact-info ul li i {
+    color: #00a790;
+    width: 30px;
+    text-align: center;
 }
