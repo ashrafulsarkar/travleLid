@@ -11,19 +11,19 @@
 1. Theme default css
 2. header area
 3. slider area
-4. counter area
-5. features area
-6. video area
-7. work area
-8. price area
-9. testiamonial area
-10. screenshort-area
-11. faq-bg-items area
-12. brand area
-13. news area
-14. subscribe area
-15. available app area
-16. footer area
+4. book now
+5. top destination area
+6. spacial offer
+7. instagram post
+8. Clients Say About Us
+9. Travel Blog
+10. footer area
+11. about page
+12. blog post
+13. blog details
+14. popular destinations
+15. check out
+16. contact
 */
 
 
@@ -31,39 +31,16 @@
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;700;900&family=Quicksand:wght@300;400;600;700&display=swap');
 
-
-/*
-
-font-family: 'Muli', sans-serif;
-font-family: 'Quicksand', sans-serif;
-
-*/
-
-
 body {
     font-family: 'Muli', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #505050;
 }
-
 img {
     width: 100%;
     transition: all 0.3s ease-out 0s;
 }
-
-.f-left {
-    float: left
-}
-
-.f-right {
-    float: right
-}
-
-.fix {
-    overflow: hidden
-}
-
 a,
 .button {
     -webkit-transition: all 0.3s ease-out 0s;
@@ -72,18 +49,17 @@ a,
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
-
 a:focus,
 .button:focus {
     text-decoration: none;
     outline: none;
 }
 a:hover,
-a:focus{
+a:focus {
     text-decoration: none;
     box-shadow: none !important;
 }
-a:focus{
+a:focus {
     color: #ffffff;
 }
 a,
@@ -91,7 +67,6 @@ button {
     color: #505050;
     outline: medium none;
 }
-
 button:focus,
 input:focus,
 input:focus,
@@ -99,15 +74,6 @@ textarea,
 textarea:focus {
     outline: 0
 }
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
 h1,
 h2,
 h3,
@@ -120,7 +86,6 @@ h6 {
     font-style: normal;
     font-weight: 700;
 }
-
 h1 a,
 h2 a,
 h3 a,
@@ -129,16 +94,13 @@ h5 a,
 h6 a {
     color: inherit;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
-
 li {
     list-style: none
 }
-
 p {
     font-size: 16px;
     font-weight: normal;
@@ -146,51 +108,43 @@ p {
     color: #505050;
     margin-bottom: 15px;
 }
-
 hr {
     border-bottom: 1px solid rgba(132, 130, 130, 0.3);
     border-top: 0 none;
     margin: 0;
     padding: 0;
 }
-
 label {
     color: #444;
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
 }
-
 *::-moz-selection {
     background: #d6b161;
     color: #fff;
     text-shadow: none;
 }
-
 ::-moz-selection {
     background: #444;
     color: #fff;
     text-shadow: none;
 }
-
 ::selection {
     background: #444;
     color: #fff;
     text-shadow: none;
 }
-
 *::-moz-placeholder {
     color: #A7A7A7;
     font-size: 14px;
     opacity: 1;
 }
-
 *::placeholder {
     color: #A7A7A7;
     font-size: 14px;
     opacity: 1;
 }
-
 /* button style */
 .btn {
     background: #00A790;
@@ -212,45 +166,37 @@ label {
     white-space: nowrap;
     font-family: 'Quicksand', sans-serif;
 }
-
 .btn:hover {
     color: #3D3D3D;
     text-decoration: none;
 }
-
 .btn-border {
     border-color: #fff;
     background: transparent;
 }
-
 .btn-border:hover {
     background: #fff;
     color: #ff62a3;
 }
 
-/* header area */
+/* 2. header area */
 .header-full-part {
     background: rgba(0, 168, 146, 0.04);
 }
-
 .logo {
     width: 177px;
 }
-
 .header-btn {
     text-align: right;
 }
-
 .main-menu ul {
     text-align: right;
 }
-
 .main-menu ul li {
     display: inline-block;
     position: relative;
 
 }
-
 .main-menu ul li a {
     padding: 50px 18px;
     display: block;
@@ -258,11 +204,9 @@ label {
 .main-menu ul li a:focus {
     color: #00a790;
 }
-.main-menu ul li:hover > a{
+.main-menu ul li:hover > a {
     color: #00a790;
 }
-
-
 .main-menu ul li ul.sub-menu {
     position: absolute;
     width: 185px;
@@ -281,16 +225,14 @@ label {
     visibility: hidden;
     z-index: 999;
 }
-
 .main-menu ul li ul.sub-menu li {
     display: block;
 }
-
 .main-menu ul li ul.sub-menu li a {
     padding: 5px 15px;
     display: block;
 }
-.main-menu ul li ul.sub-menu li ul.sub-menu{
+.main-menu ul li ul.sub-menu li ul.sub-menu {
     left: 100%;
     top: 0;
 }
@@ -299,11 +241,10 @@ label {
     visibility: visible;
 }
 
-/* slider area */
+/* 3. slider area */
 .slider-area {
     margin: 0 5%;
 }
-
 .slider-part {
     max-width: 1711px;
     margin: auto;
@@ -316,13 +257,11 @@ label {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
 .slider-title {
     max-width: 954px;
     margin: auto;
     text-align: center;
 }
-
 .slider-title h2 {
     font-size: 77px;
     line-height: 98px;
@@ -330,11 +269,9 @@ label {
     color: #fff;
     padding-top: 240px;
 }
-
 .ply-btn {
     padding-bottom: 180px;
 }
-
 .ply-btn a i {
     font-size: 25px;
     color: #fff;
@@ -345,32 +282,27 @@ label {
     height: 95px;
     text-align: center;
 }
-
 .ply-btn a i:focus {
     outline: none;
     box-shadow: none;
 }
 
-/* book now */
-
+/* 4. book now */
 .select-booknow {
     max-width: 246px;
     margin: auto;
     text-align: center;
     position: relative;
 }
-
 .select-booknow select,
 .select-booknow input {
     width: 100%;
     height: 90px;
 }
-
 .book-btn .btn {
     width: 100%;
     padding: 35px 0;
 }
-
 .bookPart {
     padding: 45px;
     background: #fff;
@@ -379,7 +311,6 @@ label {
     position: relative;
     top: -85px;
 }
-
 .nice-select {
     max-width: 246px;
     width: 100%;
@@ -389,7 +320,6 @@ label {
     height: 90px;
     border: 1px solid rgba(0, 167, 144, 0.17);
 }
-
 .nice-select .list {
     max-width: 246px;
     width: 100%;
@@ -397,7 +327,6 @@ label {
     color: #505050;
     font-size: 19px;
 }
-
 .dateSelect input {
     padding: 15px;
     color: #505050;
@@ -406,17 +335,14 @@ label {
     font-size: 16px;
     line-height: 24px;
 }
-
 .book-btn .btn {
     font-size: 22px;
     font-weight: 700;
 }
-
 .dateSelect input::placeholder {
     font-size: 17px;
     color: #505050;
 }
-
 .dateSelect::after {
     border-bottom: 2px solid #00A790;
     border-right: 2px solid #00A790;
@@ -438,13 +364,11 @@ label {
     transition: all 0.15s ease-in-out;
     width: 10px;
 }
-
 .dateSelect.open:after {
     -webkit-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-
 div#ui-datepicker-div {
     width: 246px;
     margin-top: 20px;
@@ -452,24 +376,19 @@ div#ui-datepicker-div {
     padding: 13px;
     border-radius: 10px;
 }
-
 .ui-datepicker-title {
     font-size: 18px;
     font-weight: 700;
 }
-
 .ui-datepicker-header {
     background: none;
     border: none;
 }
-
-
 table.ui-datepicker-calendar thead {
     background: #F4FBFA;
     border-radius: 20px;
     font-size: 13px;
 }
-
 a.ui-state-default {
     background: none !important;
     border: 1px solid #B5B5B5 !important;
@@ -477,13 +396,11 @@ a.ui-state-default {
     font-size: 13px;
     border-radius: 5px;
 }
-
 .ui-datepicker-today .ui-state-default {
     background: #464646b8 !important;
     border: 1px solid #464646b8 !important;
     color: #fff !important;
 }
-
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
@@ -494,7 +411,6 @@ a.ui-button:active,
     background: #00a790 !important;
     color: #fff !important;
 }
-
 a.ui-datepicker-prev::after {
     content: '\f104';
     font-family: 'Font Awesome 5 Free';
@@ -503,7 +419,7 @@ a.ui-datepicker-prev::after {
     left: 10px;
     font-size: 19px;
 }
-a.ui-datepicker-next::after{
+a.ui-datepicker-next::after {
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     position: relative;
@@ -512,7 +428,7 @@ a.ui-datepicker-next::after{
     font-size: 19px;
 }
 
-/* top destination area  */
+/* 5. top destination area  */
 #destination {
     padding-top: 50px;
     position: relative;
@@ -559,14 +475,14 @@ a.ui-datepicker-next::after{
     line-height: 21px;
     margin-bottom: 12px;
 }
-.destStar{
+.destStar {
     padding-bottom: 15px;
 }
 .destStar i {
     color: #FFC107;
     font-size: 10px;
 }
-.destBtn{
+.destBtn {
     height: 0;
     overflow: hidden;
     transition: all 0.3s ease-out;
@@ -593,12 +509,12 @@ a.ui-datepicker-next::after{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.destination-menu button.active{
+.destination-menu button.active {
     background: #00A790;
     color: #fff;
 }
 
-/* spacial offer */
+/* 6. spacial offer */
 .spacial-part {
     width: 370px;
     margin: auto;
@@ -607,7 +523,7 @@ a.ui-datepicker-next::after{
     background: #F4FBFA;
     padding: 26px 30px;
 }
-.spacial-btn{
+.spacial-btn {
     background: #F4FBFA;
     padding: 20px 30px;
     border-top: 1px solid rgba(112, 112, 112, 0.14);
@@ -629,7 +545,7 @@ a.ui-datepicker-next::after{
     font-weight: 600;
     margin-bottom: 15px;
 }
-.spacial-text p{
+.spacial-text p {
     margin-bottom: 0px;
 }
 .spacial-text p span {
@@ -675,11 +591,11 @@ button.slick-arrow {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
 }
-button.slick-arrow:hover{
+button.slick-arrow:hover {
     background: #00A790;
     color: #fff;
 }
-button.slick-arrow i{
+button.slick-arrow i {
     font-size: 18px;
 }
 button.slick-next {
@@ -691,7 +607,7 @@ button.slick-prev {
     right: inherit;
 }
 
-/* instagram post */
+/* 7. instagram post */
 .instaItems {
     width: 370px;
     margin: auto;
@@ -757,7 +673,8 @@ button.slick-prev {
     top: -160px;
     bottom: inherit;
 }
-/* Clients Say About Us */
+
+/* 8. Clients Say About Us */
 .testimonial-part {
     width: 570px;
     margin: auto;
@@ -807,7 +724,8 @@ button.slick-prev {
 .user-says p {
     margin-bottom: 0;
 }
-/* Travel Blog */
+
+/* 9. Travel Blog */
 .blog-img {
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -832,7 +750,7 @@ button.slick-prev {
     -o-border-radius: 50%;
     text-align: center;
 }
-.play-btn i{
+.play-btn i {
     width: 88px;
     height: 88px;
     margin: auto;
@@ -865,7 +783,8 @@ button.slick-prev {
     -ms-transform: translateY(-220%);
     -o-transform: translateY(-220%);
 }
-/* footer area */
+
+/* 10. footer area */
 .footer-logo {
     width: 177px;
 }
@@ -908,7 +827,6 @@ button.slick-prev {
     line-height: 25px;
     padding: 16px;
 }
-
 .footer-bottom {
     border-top: 1px solid rgba(0, 167, 145, 0.12);
 }
@@ -920,7 +838,7 @@ button.slick-prev {
     padding: 23px 0;
     line-height: 20px;
 }
-#return-to-top i{
+#return-to-top i {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -943,8 +861,9 @@ button.slick-prev {
     color: #00a790;
     border: 1px solid #00a790;
 }
-/* about page */
-.slider-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+
+/* 11. about page */
+.slider-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     content: "-";
     color: #fff;
 }
@@ -961,7 +880,7 @@ button.slick-prev {
     line-height: 98px;
 }
 .slider-breadcrumb .breadcrumb-item a,
-.slider-breadcrumb .breadcrumb-item.active{
+.slider-breadcrumb .breadcrumb-item.active {
     color: #fff;
 }
 .about_img {
@@ -993,7 +912,7 @@ button.slick-prev {
     text-align: center;
 }
 
-/* blog post */
+/* 12. blog post */
 .post-title h2 {
     font-size: 50px;
     line-height: 80px;
@@ -1019,13 +938,12 @@ button.slick-prev {
     line-height: 35px;
     padding: 8px 20px;
 }
-.post-pagination .page-item.active .page-link{
+.post-pagination .page-item.active .page-link {
     color: #fff;
     background: #00a790;
 }
 .post-pagination li:first-child .page-link,
-.post-pagination li:last-child .page-link
- {
+.post-pagination li:last-child .page-link {
     font-size: 24px;
     border: none;
     color: #505050;
@@ -1059,7 +977,8 @@ button.slick-prev {
 .recent-list ul li {
     line-height: 34px;
 }
-/* blog details */
+
+/* 13. blog details */
 .blog-title h2 {
     padding-right: 10px;
 }
@@ -1174,7 +1093,8 @@ button.slick-prev {
 .author-details p {
     font-size: 19px;
 }
-/* popular destinations */
+
+/* 14. popular destinations */
 .popular-destinations {
     width: 520px;
     padding: 8px 0;
@@ -1193,7 +1113,8 @@ button.slick-prev {
 .popular-destinations .destBtn .btn {
     padding: 15px 16px;
 }
-/* check out */
+
+/* 15. check out */
 .check-title h3 {
     font-size: 40px;
     line-height: 50px;
@@ -1227,7 +1148,6 @@ button.slick-prev {
     font-size: 18px;
     line-height: 23px;
 }
-
 .check-out-label input[type="radio"] {
     appearance: none;
     width: 15px;
@@ -1237,20 +1157,20 @@ button.slick-prev {
     border-radius: 50%;
     transition: .2s;
     cursor: pointer;
-    color: #707070;;
+    color: #707070;
+    ;
     border-bottom: none;
     float: left;
     margin-top: 4px;
-  }
-  
-  .check-out-label input[type="radio"]:checked {
+}
+.check-out-label input[type="radio"]:checked {
     background: #00a790;
     box-shadow: inset 0 0 0 .2em white, 0 0 0 .1em #00a790;
-  }
-  .check-out-label input[type="radio"]:focus {
+}
+.check-out-label input[type="radio"]:focus {
     outline: 0;
-  }
-  .check-out-btn .btn {
+}
+.check-out-btn .btn {
     padding: 21px 38px;
 }
 .cart {
@@ -1259,7 +1179,7 @@ button.slick-prev {
     padding: 25px 0;
     box-shadow: 0 0 20px 20px #efefef5e;
 }
-.cart-items{
+.cart-items {
     padding: 0 25px;
 }
 .cart-img img {
@@ -1278,7 +1198,7 @@ button.slick-prev {
     display: block;
     font-weight: 700;
 }
-.cart-info ul{
+.cart-info ul {
     padding-top: 10px;
 }
 .cart-info ul li {
@@ -1287,10 +1207,11 @@ button.slick-prev {
     font-weight: 600;
     padding: 6px 0px;
 }
-.cart-info ul li:last-child{
+.cart-info ul li:last-child {
     color: #00a790;
 }
-/* contact */
+
+/* 16. contact */
 .contact-title h3 {
     text-align: center;
     font-size: 50px;

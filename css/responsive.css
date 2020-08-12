@@ -16,6 +16,7 @@
         font-size: 20px;
     }
 }
+
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
     .main-menu ul li a {
@@ -82,6 +83,7 @@
         line-height: 60px;
     }
 }
+
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
     .header-top {
@@ -226,7 +228,8 @@
     .counter-full {
         padding-top: 0;
     }
-    .counter-full .single-counter h3, .counter-full .single-counter span.counter {
+    .counter-full .single-counter h3,
+    .counter-full .single-counter span.counter {
         font-size: 28px;
         margin-bottom: 0;
     }
@@ -234,6 +237,7 @@
         font-size: 14px;
     }
 }
+
 /* Extra small Device. */
 @media (max-width: 767px) {
     .header-top {
@@ -446,7 +450,8 @@
         padding: 0px 10px;
         font-size: 16px;
     }
-    .post-pagination li:first-child .page-link, .post-pagination li:last-child .page-link {
+    .post-pagination li:first-child .page-link,
+    .post-pagination li:last-child .page-link {
         font-size: 20px;
     }
     .contact-title h3 {
@@ -480,6 +485,7 @@
         line-height: 35px;
     }
 }
+
 /* SM Small Device :576px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-btn {
@@ -524,7 +530,8 @@
     .instaItems {
         width: 240px;
     }
-    .select-booknow, .select-booknow .nice-select {
+    .select-booknow,
+    .select-booknow .nice-select {
         max-width: none;
     }
     .popular-destinations h4 {
@@ -536,12 +543,14 @@
         line-height: 50px;
     }
 }
+
 /* popular destinations page */
-@media only screen and (min-width: 460px) and (max-width: 575px){
+@media only screen and (min-width: 460px) and (max-width: 575px) {
     .popular-destinations {
         width: 360px;
     }
 }
+
 /* arrow problem solve */
 @media only screen and (min-width: 1200px) and (max-width: 1360px),
 (min-width: 992px) and (max-width: 1100px),
@@ -566,7 +575,8 @@
         -o-transform: translateY(50%);
     }
 }
-@media only screen and (min-width: 576px) and (max-width: 700px){
+
+@media only screen and (min-width: 576px) and (max-width: 700px) {
     .top-arrow-some-screen button.slick-prev {
         left: inherit;
         bottom: inherit;
