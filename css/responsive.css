@@ -8,10 +8,16 @@
         width: 1050px;
         margin: auto;
     }
+    .popular-destinations {
+        width: 450px !important;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
 }
-
 /* LG Device :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .main-menu ul li a {
         padding: 50px 15px;
     }
@@ -59,9 +65,23 @@
         -moz-transform: translateY(-300%);
         -ms-transform: translateY(-300%);
         -o-transform: translateY(-300%);
+    }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .popular-destinations {
+        width: 360px !important;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
+    .about_part h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
-}
-
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
     .header-top {
@@ -151,9 +171,69 @@
         -moz-transform: translateY(-330%);
         -ms-transform: translateY(-330%);
         -o-transform: translateY(-330%);
+    }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .slider-breadcrumb .breadcrumb {
+        padding: 150px 0;
+    }
+    .popular-destinations {
+        width: 300px !important;
+    }
+    .destination-items.mb-70 {
+        margin-bottom: 35px;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
+    .contact-info ul li {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .cart-items {
+        padding: 0 20px;
+    }
+    .cart-info ul li {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .post-title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .search-post input {
+        height: 65px;
+    }
+    .post-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .post-text h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .post-author h3 {
+        font-size: 34px;
+    }
+    .about_part h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .counter-full {
+        padding-top: 0;
+    }
+    .counter-full .single-counter h3, .counter-full .single-counter span.counter {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .counter-full .single-counter span {
+        font-size: 14px;
+    }
 }
-}
-
 /* Extra small Device. */
 @media (max-width: 767px) {
     .header-top {
@@ -313,7 +393,7 @@
         -moz-transform: translateY(-295%);
         -ms-transform: translateY(-295%);
         -o-transform: translateY(-295%);
-}
+    }
     .test-user-details {
         display: block;
         float: inherit;
@@ -347,9 +427,60 @@
     .footer-items {
         padding-bottom: 30px;
     }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .slider-breadcrumb .breadcrumb {
+        padding: 100px 0;
+    }
+    .popular-destinations h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .popular-destinations p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .post-pagination li:first-child .page-link, .post-pagination li:last-child .page-link {
+        font-size: 20px;
+    }
+    .contact-title h3 {
+        font-size: 40px;
+    }
+    .contact-info ul li {
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .check-title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .post-title h2 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .post-text h3 {
+        font-size: 20px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .comment-details {
+        padding: 35px 25px;
+    }
+    #travel_agency {
+        padding-top: 80px;
+    }
+    .about_part h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
-
-/* SM Small Device :550px. */
+/* SM Small Device :576px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-btn {
         margin-right: 20px;
@@ -396,9 +527,21 @@
     .select-booknow, .select-booknow .nice-select {
         max-width: none;
     }
-    
+    .popular-destinations h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .post-title h2 {
+        font-size: 37px;
+        line-height: 50px;
+    }
 }
-
+/* popular destinations page */
+@media only screen and (min-width: 460px) and (max-width: 575px){
+    .popular-destinations {
+        width: 360px;
+    }
+}
 /* arrow problem solve */
 @media only screen and (min-width: 1200px) and (max-width: 1360px),
 (min-width: 992px) and (max-width: 1100px),
