@@ -58,9 +58,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     box-shadow: none !important;
-}
-a:focus {
-    color: #ffffff;
+    color: #00a790;
 }
 a,
 button {
